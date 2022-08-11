@@ -1,0 +1,147 @@
+* {
+    margin: 0px; 
+    padding: 0px; 
+    box-sizing: border-box;
+}
+.mymain {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: #F2F2F2;
+    font-family: 'Abel', sans-serif;
+    letter-spacing: 1px;
+}
+.mycontainer{
+    width: 70%;
+    margin: 10px;
+}
+.myarea{
+    background: #fff;
+}
+.text-color{
+    color: #01cd74;
+    font-weight: bolder;
+}
+.myleft-side{
+    padding: 30px;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    background: #212121;
+    color: #fff;
+    margin-left: -15px;
+    display: table;
+}
+.myleft-side-text{
+    vertical-align: middle!important;
+    display: table-cell;
+    line-height: normal;
+}
+.fab{
+    margin-right: 10px!important;
+}
+.myright-side{
+    margin-left: -15px;
+    margin-right: 15px;
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+}
+.form-control{
+    text-indent: 28px;
+    border-radius: 0!important;
+}
+#myicon{
+    position: relative;
+    z-index: 1;
+    left: 18px;
+    top: 36px;
+    color: #01cd74;
+    font-weight: 900;
+    cursor: pointer;
+    width: 0;
+}
+
+.mybtn{
+    width: 100%;
+    padding: 12px 78px;
+    font-size: 16px;
+    line-height: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: inline-block;
+    border: solid 2px transparent;
+    -webkit-font-smoothing: antialiased;
+    margin-top: 25px;
+    font-weight: 500;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    white-space: nowrap;
+    background-image: none;
+    -webkit-transition: all .15s;
+    transition: all .15s;
+}
+.mybtn-primary {
+    color: #fff;
+    background-color: #01cd74;
+    border-color: transparent;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.mybtn-primary:hover {
+    box-shadow: 0 1px 12px rgba(0,0,0,0.35);
+}
+.remembar{
+    padding: 20px 0px;
+    text-align: left;
+    color: #808080;
+}
+.ckb_custom {
+  display: none;
+}
+.ckb_custom + label{
+    margin-top: 2px;
+    color: #808080;
+    font-size: 16px;
+    position: absolute;
+    cursor: pointer;
+    display:block;
+    float:left;
+    height:1em;
+    line-height:1em;
+}
+.ckb_custom + label:before {
+    border: 1px solid #01cd74;
+    background: #fff;
+    content: "\00a0";
+    display: inline-block;
+    height: 16px;
+    font: 16px/1em sans-serif;
+    margin: 0 .25em 0 0;
+    padding: 0;
+    vertical-align: top;
+    width: 16px;
+}
+.ckb_custom:checked + label:before {
+    background: #01cd74;
+    color: #fff;
+    content: "\2713";
+    text-align: center;
+}
+
+h5 {
+    text-align: justify;
+}
